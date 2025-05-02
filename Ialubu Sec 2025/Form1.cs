@@ -17,5 +17,11 @@ namespace Ialubu_Sec_2025
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+//Push
