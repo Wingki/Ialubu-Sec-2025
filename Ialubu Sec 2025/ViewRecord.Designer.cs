@@ -89,38 +89,39 @@
             // 
             // studentGridView
             // 
+            studentGridView.BackgroundColor = Color.CornflowerBlue;
             studentGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             studentGridView.Location = new Point(12, 68);
             studentGridView.Name = "studentGridView";
             studentGridView.RowHeadersWidth = 62;
-            studentGridView.Size = new Size(749, 225);
+            studentGridView.Size = new Size(718, 296);
             studentGridView.TabIndex = 9;
             studentGridView.CellContentClick += studentGridView_CellContentClick;
             // 
             // NameTB
             // 
-            NameTB.Location = new Point(164, 360);
+            NameTB.Location = new Point(155, 392);
             NameTB.Name = "NameTB";
             NameTB.Size = new Size(150, 31);
             NameTB.TabIndex = 10;
             // 
             // SubjectTB
             // 
-            SubjectTB.Location = new Point(520, 360);
+            SubjectTB.Location = new Point(422, 392);
             SubjectTB.Name = "SubjectTB";
             SubjectTB.Size = new Size(150, 31);
             SubjectTB.TabIndex = 11;
             // 
             // GradeTB
             // 
-            GradeTB.Location = new Point(164, 422);
+            GradeTB.Location = new Point(155, 454);
             GradeTB.Name = "GradeTB";
             GradeTB.Size = new Size(150, 31);
             GradeTB.TabIndex = 12;
             // 
             // MarksTB
             // 
-            MarksTB.Location = new Point(520, 422);
+            MarksTB.Location = new Point(422, 454);
             MarksTB.Name = "MarksTB";
             MarksTB.Size = new Size(150, 31);
             MarksTB.TabIndex = 13;
@@ -128,7 +129,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(82, 365);
+            label1.Location = new Point(73, 397);
             label1.Name = "label1";
             label1.Size = new Size(59, 25);
             label1.TabIndex = 14;
@@ -137,7 +138,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(82, 422);
+            label2.Location = new Point(73, 454);
             label2.Name = "label2";
             label2.Size = new Size(59, 25);
             label2.TabIndex = 15;
@@ -146,7 +147,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(429, 361);
+            label3.Location = new Point(331, 393);
             label3.Name = "label3";
             label3.Size = new Size(70, 25);
             label3.TabIndex = 16;
@@ -155,7 +156,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(432, 424);
+            label4.Location = new Point(334, 456);
             label4.Name = "label4";
             label4.Size = new Size(60, 25);
             label4.TabIndex = 17;
@@ -163,7 +164,7 @@
             // 
             // UpdateBTN
             // 
-            UpdateBTN.Location = new Point(481, 12);
+            UpdateBTN.Location = new Point(618, 445);
             UpdateBTN.Name = "UpdateBTN";
             UpdateBTN.Size = new Size(112, 40);
             UpdateBTN.TabIndex = 18;
@@ -186,7 +187,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(800, 538);
+            ClientSize = new Size(800, 530);
             Controls.Add(button1);
             Controls.Add(UpdateBTN);
             Controls.Add(label4);
